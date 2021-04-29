@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server:start": "yarn workspace @santychuy/server start",
+    "server:dev": "yarn workspace @santychuy/server dev",
+    "server:build": "yarn workspace @santychuy/server build",
+    "server:add": "yarn workspace @santychuy/server add",
+    "client:start": "yarn workspace @santychuy/client start",
+    "client:dev": "yarn workspace @santychuy/client dev",
+    "client:build": "yarn workspace @santychuy/client build",
+    "client:add": "yarn workspace @santychuy/client add"
+  }
+}
